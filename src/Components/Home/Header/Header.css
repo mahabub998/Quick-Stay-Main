@@ -1,0 +1,44 @@
+.backGround_img{
+    background-image: url("../../assets/images/bannerRoom.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100%;  
+}
+
+.box{   
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -90%);
+    width: 50%;
+    height: 50px;
+}
+.box_two{
+    position: absolute;
+    top:47%;
+    left:40%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50px;
+}
+
+.Box_handel{
+    margin-left: 20px;
+    width:60%;
+    height: 50px;
+    border-radius:20px;
+    /* border:3px solid red */
+}
+.button_handel{
+    position: relative;
+    border-radius: 25px 25px 25px 0;
+    width: 100px;
+    height: 50px;
+    outline:none;
+    background: #ffc107;
+    
+}
+li{
+    list-style:none;
+    
+}

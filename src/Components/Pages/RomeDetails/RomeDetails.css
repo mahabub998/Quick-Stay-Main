@@ -1,0 +1,13 @@
+/* img{
+    
+}
+{roomConditions.map((room) => (
+    <RoomCard room={room}></RoomCard>
+  ))} */
+
+  
+  
+  .img_category{
+    height: 60px;
+    width: 50px;
+}

@@ -1,0 +1,8 @@
+ @import url('https://fonts.googleapis.com/css2?family=Acme&family=Fruktur&display=swap'); 
+.font-change{
+    font-family: 'Acme', sans-serif;
+}
+.image_handel img{
+    height: 50px;
+    margin-left:5px;
+}
