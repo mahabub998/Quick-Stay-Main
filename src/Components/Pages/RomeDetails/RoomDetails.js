@@ -25,7 +25,7 @@ const RoomDetails = () => {
               best room for rent near you.
             </p>
           </div>
-          <div className=" col-md-3">
+          <div className=" col-md-3 shadow-lg p-3 mb-5 bg-white rounded">
             <img
               src="https://i.ibb.co/PzhD0QL/Room-Service.jpg"
               alt="Room-Service"
@@ -42,7 +42,7 @@ const RoomDetails = () => {
               </div>
             </div>
           </div>
-          <div className=" col-md-3">
+          <div className=" col-md-3 shadow-lg p-3 mb-5 bg-white rounded">
             <img
               src="https://i.ibb.co/PzhD0QL/Room-Service.jpg"
               alt="Room-Service"
@@ -59,7 +59,7 @@ const RoomDetails = () => {
               </div>
             </div>
           </div>
-          <div className=" col-md-3">
+          <div className=" col-md-3 shadow-lg p-3 mb-5 bg-white rounded">
           <img
             src="https://i.ibb.co/PzhD0QL/Room-Service.jpg"
             alt="Room-Service"
