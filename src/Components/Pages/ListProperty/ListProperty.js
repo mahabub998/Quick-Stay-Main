@@ -4,7 +4,7 @@ import './ListProperty.css';
 const ListProperty = () => {
     return (
         <section className="background_color">
-            <div className="container">
+            <div className="container-fluid">
             <div className="row ">
              <div className="col-md-3 mt-5">
               <h4>Are you<br/> home owner?</h4>

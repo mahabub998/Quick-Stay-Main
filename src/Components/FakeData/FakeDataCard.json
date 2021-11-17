@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "name": "Chandigarh",
+        "image": "https://i.ibb.co/FsbjwM7/Chandigarh.png"
+    },
+    {
+        "id": "2",
+        "name": "Chennai",
+        "image": "https://i.ibb.co/4V0Mfyx/Chennai.png"
+    },
+    {
+        "id": "3",
+        "name": "Delhi",
+        "image": "https://i.ibb.co/tpGnNZ3/Delhi.png"
+    },
+    {
+        "id": "4",
+        "name": "Gurgaon",
+        "image": "https://i.ibb.co/mhBxtJR/Gurgaon.png"
+    },
+    {
+        "id": "5",
+        "name": "Hyderabad",
+        "image": "https://i.ibb.co/8PmsC2F/Hyderabad.png"
+    },
+    {
+        "id": "6",
+        "name": "Jaipur",
+        "image": "https://i.ibb.co/t4QMP1p/Jaipur.png"
+    },
+    {
+        "id": "7",
+        "name": "Kolkata",
+        "image": "https://i.ibb.co/GC0dWLn/Kolkata.png"
+    },
+    {
+        "id": "8",
+        "name": "Mumbai",
+        "image": "https://i.ibb.co/NpNK761/Mumbai.png"
+    },
+    {
+        "id": "9",
+        "name": "Patna",
+        "image": "https://i.ibb.co/m6d9mnw/Patna.png"
+    },
+    {
+        "id": "10",
+        "name": "Pune",
+        "image": "https://i.ibb.co/HXCT3zN/Pune.png"
+    }
+]
