@@ -5,13 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import FakeDataCard from "../../FakeData/FakeDataCard.json";
 
 const CardSlider = () => {
-  const [cards, setCards] = useState([]);
-
-  useEffect(() => {
-    setCards(FakeDataCard);
-  }, []);
-  console.log(cards);
-
+  
   return (
     <section>
       <div className="container-fluid">

@@ -11,6 +11,8 @@ import Icon from './../../Service/Icon/Icon';
 import Card from './../../Pages/CardSlider/Card';
 import CardSlider from '../../Pages/CardSlider/CardSlider';
 import LocationPart from '../../Pages/LocationPart/LocationPart';
+import AppService from '../../Pages/AppService/AppService';
+import PopularSercahes from '../../Pages/PopularSercahes/PopularSercahes';
 
 
 const Home = () => {
@@ -28,6 +30,8 @@ const Home = () => {
          
          <CardSlider />
          <LocationPart />
+         <AppService />
+         <PopularSercahes />
         </div>
     );
 };
