@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Fruktur&display=swap'); 
-.font-change{
+.font_change{
     font-family: 'Acme', sans-serif;
+}
+.horizontal_color{
+    background-color:yellow;
+    height: 75px;
+    width: 30px;
+    margin-right:10px;
+
+}
+.Text_Size{
+    margin-left:80px;
 }

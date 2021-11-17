@@ -1,6 +1,6 @@
 import React from 'react';
 import CustomerService from '../../Pages/CustomerService/CustomerService';
-import Room from '../../Service/Service';
+import Service from '../../Service/Service';
 import Header from '../Header/Header';
 import OfferCard from '../OfferCard/OfferCard';
 import Refer from '../Refer/Refer';
@@ -20,7 +20,7 @@ const Home = () => {
         <div>
             <Header />
             <OfferCard />
-            <Room />
+            <Service />
             <Refer />
            <RoomDetails />
            <OurServices />

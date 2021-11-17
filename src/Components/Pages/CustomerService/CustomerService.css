@@ -2,13 +2,10 @@
 .font_change{
     font-family: 'Acme', sans-serif;
 }
-.horizontalColor{
+
+.horizontal__color{
     background-color:yellow;
     height: 65px;
     width: 30px;
     margin-right:10px;
-    margin-top: 50px;
-}
-.font_change{
-    font-family: 'Acme', sans-serif;
 }
