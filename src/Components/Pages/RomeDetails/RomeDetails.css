@@ -1,0 +1,22 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Fruktur&display=swap');
+  .font_change{
+    font-family: 'Acme', sans-serif;
+}
+  .img_category{
+    height: 60px;
+    width: 50px;
+}
+.horizontal-color{
+  background-color:yellow;
+    height: 65px;
+    width: 30px;
+    margin-right:10px;
+}
+.rounded_img{
+  /* border-radius: 10px; */
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 320px;
+  height:227.27
+}

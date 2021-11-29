@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fruktur&display=swap'); 
+.font_change{
+    font-family: 'Acme', sans-serif;
+}
+.horizontalColor{
+    background-color:yellow;
+    height: 65px;
+    width: 30px;
+    margin-right:10px;
+    margin-top: 10px;
+}
+.font_change{
+    font-family: 'Acme', sans-serif;
+}
+.customer_pic{
+    width: 250px;
+    height: 250px;
+
+}
+.write_handel{
+    margin-left: 15px;
+}

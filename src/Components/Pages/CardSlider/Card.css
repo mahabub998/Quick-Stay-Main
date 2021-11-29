@@ -1,0 +1,33 @@
+/* .card{
+    width: 50;
+    height: 200px;
+    background:#333;
+    color: #fff;
+    font-size:30px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.card_size{
+    height: 250px;
+    width: 250px;
+    
+}
+.margin_card{
+    margin-left: 20px;
+   
+}
+@media only screen and (max-width: 600px) {
+   
+}
+
+@media only screen and (min-width: 600px) {
+   
+}
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 992px) {
+
+}

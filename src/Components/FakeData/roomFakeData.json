@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Private Room",
+        "img":"https://i.ibb.co/PzhD0QL/Room-Service.jpg",
+        "location":"sec 22, Chandigarh",
+        "condition":"Fully-Furnished"
+    },
+    {
+        "name":"PG",
+        "img":"https://i.ibb.co/PzhD0QL/Room-Service.jpg",
+        "location":"sec 22, Chandigarh",
+        "condition":"Fully-Furnished"
+    },
+    {
+        "name":"Private Room",
+        "img":"https://i.ibb.co/PzhD0QL/Room-Service.jpg",
+        "location":"sec 22, Vip road Zirakpur",
+        "condition":"Fully-Furnished"
+    }
+]

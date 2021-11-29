@@ -1,0 +1,55 @@
+.background_color_list{
+    background-color:#A00500;
+    height: 220px;
+    width: 100%;
+}
+.text_color{
+  color: #FFDE17;
+
+}
+
+
+
+.handel_Button{
+  height: 40px;
+  
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ .responsive_system{
+  width: 150px;
+  height: 120px;
+ } 
+ .responsive_system1{
+  background-color:#A00500;
+  height:500px;
+  width: 200px;
+
+ }
+ .background_color_list{
+   height: 100%;
+ }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .background_color_list{
+    background-color:#A00500;
+  }
+  .responsive_system1{
+    background-color:#A00500;
+    height: 800px;
+    width: 200px;
+  
+   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

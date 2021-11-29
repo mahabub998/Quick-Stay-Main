@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.hero-section {
+    background-image: url('../../assets/images/herobgImage.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 579px;
+}
+
+.hero-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 3em;
+}
+.search-area-info span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 3em;
+
+}
+/* .selectpicker select{
+    margin-right:100px;
+} */
+
+.selectpicker select:focus{
+    outline: none;
+    /* margin-right:100px; */
+    
+}
+
+.search-area {
+    background: rgba(0, 0, 0, 0.52);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.selectpicker {
+    width: 100%;
+    height: 50px;
+    background: #E8E8E8;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0px 2em;
+    cursor: pointer;
+}
+
+.selectpicker select {
+    width: 100%;
+    height: 50px;
+    background: #E8E8E8;
+    border: none;
+    cursor: pointer;
+    margin-left: none !;
+}
+.input-box {
+    width: 800px;
+    border: none;
+    padding-left: 10px;
+}
+input:focus {
+    outline: none;
+}
+
+.input-area button {
+    width: 180px ;
+    background: #A00500;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    color: #FFFFFF;
+}
+button:hover {
+    background: #740501;
+}
+
+.box {
+    width: 500px;
+    height: 50px;
+    padding: 2px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    /* position: absolute; */
+    margin-left: 100px;
+    margin-top: 15px;
+    /* margin-right:2px; */
+    border-radius: 50%;
+    background: #FFDE17;
+    width: 50px;
+    height: 50px;
+    /* right: 4px; */
+    top: 1;
+    cursor: pointer;
+    border: none;
+    
+}
+/* .bg_color{
+    background-color: #FFDE17;
+    width: 200px;
+    height: 100px;
+} */
+
+.box span {
+    font-size: 25px;
+    font-weight: 800;
+    padding: 0px 0px 6px 10px;
+}
+.input-area{
+    width: 800px;
+}
+/* ai  agin code for responsive akthu responsiv korar joono*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .input-area{
+        width:100%;
+    }
+    .selectpicker select{
+    margin-right:20px;
+}
+.input-box {
+    width: 800px;
+    border: none;
+    padding-left: 10px;
+}
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .input-area{
+        width:100%;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .input-area{
+        width:100%;
+    }
+    .input-box {
+        width: 400px;
+        border: none;
+        padding-left: 10px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .input-area{
+        width: 800px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .input-area{
+        width: 800px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Screen Management */
+@media screen and (max-width: 1399px) {
+    .input-box {
+        width: 620px;
+    }
+    .input-area button {
+        width: 100px;
+    }
+    .input-box {
+        width: 800px;
+        padding-left: 10px;
+    }
+  }
+@media screen and (max-width: 1024px) {
+    .input-box {
+        width: 470px;
+    }
+    .input-area button {
+        width: 100px;
+    }
+  }
+@media screen and (max-width: 768px) {
+    .input-box {
+        width: 350px;
+        padding: 0 !important;
+    }
+    .input-area button {
+        width: 100px;
+    }
+    .hero-section {
+        height: 479px;
+    }
+    .selectpicker {
+        padding: 0px !important;
+    }
+  }
+@media screen and (max-width: 425px) {
+    .input-box {
+        width: 170px;
+    }
+    .input-area button {
+        width: 80px;
+    }
+.selectpicker {
+    width: 60%;
+}
+.hero-section {
+    height: 379px;
+}
+}
+@media screen and (max-width: 360px) {
+   .search-area {
+    padding: 0px !important;
+   }
+    .input-box {
+        width: 70px;
+    }
+    .input-area button {
+        width: 60px;
+    }
+.selectpicker {
+    width: 100%;
+    padding: 0px !important;
+}
+.hero-title {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+.search-area-info span{
+    font-size: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+}
+
+
+
+
+
+
+/* new 320 px responsive try  */
+
+
+ @media screen and (max-width: 320px) {
+    .search-area {
+     padding: 0px !important;
+    }
+     .input-box {
+         width: 150px;
+     }
+     .input-area button {
+         width: 60px;
+     }
+ .selectpicker {
+     width: 100%;
+     padding: 0px !important;
+ }
+ .hero-title {
+     font-size: 14px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 700;
+     text-align: left;
+ }
+ .search-area-info span{
+     font-size: 5px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 700;
+     text-align: left;
+ 
+ }
+ .box{
+    margin-left: 5px;
+ }
+ .button{
+     margin-left: 200px;
+ }
+ .text_mange{
+  margin-top: -20px;
+ }
+ .hero-section {
+    background-image: url('../../assets/images/herobgImage.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 450px;
+}
+.button{
+    margin-top: -10px;
+    margin-left:260px;
+}
+ 
+ }
