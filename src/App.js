@@ -10,8 +10,6 @@ import Service from './Components/Service/Service';
 import Blogs from './Components/Pages/Blogs/Blogs';
 import OurServices from './Components/Service/OurServices/OurServices';
 import {
-
-  BrowserRouter,
   Routes,
   Route
 } from "react-router-dom";
